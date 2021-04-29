@@ -392,7 +392,7 @@
 					"(a) {@item flail|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} or (c) {@item shield|phb}",
 					"(a) {@item leather armor|phb} or (b) {@item scale mail|phb} or (c) {@item chain mail|phb}",
 					"(a) two {@item light hammer|phb} or (b) two {@item javelin|pbh}",
-					"{@item shield|phb}, {@item explorer's pack|phb}, and a sprit focus
+					"{@item shield|phb}, {@item explorer's pack|phb}, and a sprit focus"
 				],
 				"defaultData": [
 					{
