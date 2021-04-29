@@ -589,10 +589,15 @@
 						"As a reaction, when an attack is declared on a creature within 5 feet of you, you can provide cover to that creature. The effects of your cover are determined by your Shield Art and last until the end of the current turn, but can only be used once per round.",
 						"If an armor you wear requires you to add your Dexterity modifier to get your total AC, add your Constitution modifier instead.",
 						"You have advantage on saving throws and ability checks against being shoved or knocked prone."
+				{
 			"entries": [
 				"Safeguard lasts for 1 minute. It ends early if you are knocked unconscious. You are able to end Safeguard on your turn as a bonus action.",
 				"While in Safeguard, you can use your Intelligence modifier when determining attack and damage for a weapon you are proficient with while using your shield art."
-			]
+				]
+			}
+				]
+			}
+		]
 		},
 		{
 			"name": "Fisticuffs",
