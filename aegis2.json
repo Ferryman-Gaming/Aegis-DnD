@@ -7,7 +7,7 @@
 				"abbreviation": "SVM",
 				"full": "The Aegise Class",
 				"authors": [
-					"Benjamin Huffman"
+					"Jude-Baldonado"
 				],
 				"convertedBy": [
 					"Ferryman_Gaming"
@@ -21,10 +21,10 @@
 				"abbreviation": "SVMP",
 				"full": "Subclasses for the Aegis",
 				"authors": [
-					"Benjamin Huffman"
+					"Jude-Baldonado"
 				],
 				"convertedBy": [
-					"cam443"
+					"Ferryman_Gaming"
 				],
 				"version": "1.0.0",
 				"url": "https://www.patreon.com/m/272280/posts?filters[tag]=the%20Pugilist",
@@ -37,7 +37,7 @@
 	"class": [
 		{
 			"name": "Aegis",
-			"source": "SterlingVermin",
+			"source": "Jude-Baldonado",
 			"hd": {
 				"number": 1,
 				"faces": 10
