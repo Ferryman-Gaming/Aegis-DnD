@@ -53,9 +53,9 @@
 						"Spirit Points",
 						"Petitions Known"
 					],
-				"rows": [
-					[
-					[
+					"rows": [
+						[
+						[
 							{
 								"type": "dice",
 								"toRoll": [
@@ -70,6 +70,7 @@
 						0
 					],
 						[
+						[
 							{
 								"type": "dice",
 								"toRoll": [
@@ -83,6 +84,7 @@
 						],
 						2
 					],
+						[
 						[
 							{
 								"type": "dice",
