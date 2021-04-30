@@ -359,7 +359,7 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"all armour"
+					"all armour",
 					"shields"
 				],
 				"weapons": [
@@ -405,9 +405,7 @@
 							}
 						],
 						"c": [
-							{
-								"shield|phb"
-							}
+						"shield|phb"
 						]
 					},
 					{
@@ -426,9 +424,7 @@
 							"light hammer|phb"
 						],
 						"b": [
-							{
-								"javelin|phb"
-							}
+						"javelin|phb"
 						]
 					}
 				]
@@ -529,7 +525,7 @@
 						"A fierce human sends a blast of his spirit towards a hellish orc, pushing him into the blade of his fellow paladin, taking his head clean off",
 						"Pushing his fellow adventurers to their limits with his inspirational cries, a barbarian is able to overpower an adult dragon with a single blow because of the spirit the tall elf gives to him.",
 						"The Aegis. One who claims to have found some proof that something, or some being, is out there, and being hidden. That this is the real truth. That it is the real power. Concepts of good and evil, varying government types, and even simply the way we go about life are all a fallacy to an aegis.",
-						"Because of this, the aegis has committed their entire being to protecting those who they believe are lost to the world, using any means necessart and knowledge they have gained in their search for truth. But the question is, are aegis the ones who are really under a fallacy?"
+						"Because of this, the aegis has committed their entire being to protecting those who they believe are lost to the world, using any means necessart and knowledge they have gained in their search for truth. But the question is, are aegis the ones who are really under a fallacy?",
 						{
 							"type": "entries",
 							"name": "A Deep Caring for all Living Beings",
@@ -578,28 +574,26 @@
 			"level": 1,
 			"entries": [
 				"Beginning at 1st level, when danger is present, you protect others with everything you have and without any thought for yourself.",
-				"On your turn you can enter Safeguard as a bonus action. While in safeguard, you gain the following benefits:"
+				"On your turn you can enter Safeguard as a bonus action. While in safeguard, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
 						"As a reaction, when an attack is declared on a creature within 5 feet of you, you can provide cover to that creature. The effects of your cover are determined by your Shield Art and last until the end of the current turn, but can only be used once per round.",
 						"If an armor you wear requires you to add your Dexterity modifier to get your total AC, add your Constitution modifier instead.",
 						"You have advantage on saving throws and ability checks against being shoved or knocked prone."
-				{
+			],
 			"entries": [
 				"Safeguard lasts for 1 minute. It ends early if you are knocked unconscious. You are able to end Safeguard on your turn as a bonus action.",
 				"While in Safeguard, you can use your Intelligence modifier when determining attack and damage for a weapon you are proficient with while using your shield art."
 				]
 			}
-				]
-			}
 		]
-		},
+	},
 		{
-			"name": "Shield Arts"
-			"source": "Ferryman_Gaming"
-			"className": "Aegis"
-			"classSource": "Jude-Baldonado"
+			"name": "Shield Arts",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 1,
 			"entries": [
 				"The details of how you Safeguard with your selected shield art are shown below, as well as any additional benefits provided by your choice. Once selected, you cannot change your shield art at any point",
