@@ -601,7 +601,7 @@
 					"type": "options",
 					"entries": [
 						{
-							"name": "Balwark"
+							"name": "Balwark",
 							"entries": [
 								"You are proficient with tower shields, a heavier and stronger protection. While wielding this shield, you can use an action to raise it, causing attackers to have disadvantage and you to have advantage on Dexterity saving throws, and can use a bonus action to lower the shield again.",
 								"While you hold the shield up, your movement becomes 0, but you can use a dash action to move.",
@@ -609,7 +609,7 @@
 							]
 						},
 						{
-							"name": "Dual Shield"
+							"name": "Dual Shield",
 							"entries": [
 								"When using this shield art, you can wield a shield in each hand, but do not gain the AC bonus from the secondary shield.",
 								"While wielding a shield in each hand this way, the second shield is considered a simple melee weapon, and deals 1d6 bludgeoning damage on a hit.",
@@ -617,7 +617,7 @@
 							]
 						},
 						{
-							"name": "Weapon and Shield"
+							"name": "Weapon and Shield",
 							"entries": [
 								"When using a weapon and shield, if an attack is made against another creature within 5 feet of you, as a reaction you can provide half-cover.",
 								"This provides a +2 AC and Dexterity saving throw bonus to the creature. If the creature is hit, you reduce the damage by your Intelligence modifier (minimum 1)."
