@@ -434,42 +434,38 @@
 				]
 			},
 			"classFeatures": [
-				"Safeguard|Aegis|SterlingVermin|1",
-				"Shield Arts|Aegis|SterlingVermin|1",
-				"Spirit|Aegis|SterlingVermin|2",
-				"Unknown Petitions|Aegis|SterlingVermin|2",
+				"Safeguard|Aegis|Jude-Baldonado|1",
+				"Shield Arts|Aegis|Jude-Baldonado|1",
+				"Spirit|Aegis|Jude-Baldonado|2",
+				"Unknown Petitions|Aegis|Jude-Baldonado|2",
 				{
-					"classFeature": "Path of Protection|Aegis|SterlingVermin|2",
+					"classFeature": "Path of Protection|Aegis|Jude-Baldonado|2",
 					"gainSubclassFeature": true
 				},
 				"Battle Strategist|Aegis|Ferryman_Gaming|3",
-				"Ability Score Improvement|Aegis|SterlingVermin|4",
-				"Proficiency Versatility|Aegis|SterlingVermin|4|UAClassFeatureVariants",
-				"Spiritual Insight|Aegis|SterlingVermin|5",
+				"Ability Score Improvement|Aegis|Jude-Baldonado|4",
+				"Spiritual Insight|Aegis|Jude-Baldonado|5",
 				{
-					"classFeature": "Path feature|Aegis|SterlingVermin|6",
+					"classFeature": "Path feature|Aegis|Jude-Baldonado|6",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Aegis|SterlingVermin|8",
-				"Gliding Spirit|Aegis|SterlingVermin|9",
+				"Ability Score Improvement|Aegis|Jude-Baldonado|8",
+				"Gliding Spirit|Aegis|Jude-Baldonado|9",
 				{
-					"classFeature": "Path feature|Aegis|SterlingVermin|10",
+					"classFeature": "Path feature|Aegis|Jude-Baldonado|10",
 					"gainSubclassFeature": true
 				},
-				"Spirit Armor|Aegis|Ferryman_Gaming|11",
-				"Ability Score Improvement|Aegis|SterlingVermin|12",
-				"Proficiency Versatility|Aegis|SterlingVermin|12|UAClassFeatureVariants",
-				"Shield Master|Aegis|SterlingVermin|14",
-				"Ability Score Improvement|Aegis|SterlingVermin|16",
-				"Proficiency Versatility|Aegis|SterlingVermin|16|UAClassFeatureVariants",
-				"Extension of Ones Self|Aegis|Ferryman_Gaming|17",
+				"Spirit Armor|Aegis|Jude-Baldonado|11",
+				"Ability Score Improvement|Aegis|Jude-Baldonado|12",
+				"Shield Master|Aegis|Jude-Baldonado|14",
+				"Ability Score Improvement|Aegis|Jude-Baldonado|16",
+				"Extension of Ones Self|Aegis|Jude-Baldonado|17",
 				{
-					"classFeature": "Path feature|Aegis|SterlingVermin|18",
+					"classFeature": "Path feature|Aegis|Jude-Baldonado|18",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Aegis|SterlingVermin|19",
-				"Proficiency Versatility|Aegis|SterlingVermin|19|UAClassFeatureVariants",
-				"Unbreaking Shield|Aegis|SterlingVermin|20"
+				"Ability Score Improvement|Aegis|Jude-Baldonado|19",
+				"Unbreaking Shield|Aegis|Jude-Baldonado|20"
 			],
 			"multiclassing": {
 				"requirements": {
@@ -489,13 +485,13 @@
 				{
 					"name": "Inspiration",
 					"subclassFeatures": [
-						"Utilitarian|Aegis|SterlingVermin|Inspiration|SterlingVermin|2",
-						"Helping Shield|Aegis|SterlingVermin|Inspiration|SterlingVermin|2",
-						"Natural Healer|Protection|Ferryman_Gaming|Inspiration|Ferryman_Gaming|6",
-						"Proud Spirit|Aegis|SterlingVermin|Inspiration|SterlingVermin|10",
-						"Perfected Spirit|Aegis|SterlingVermin|Inspiration|SterlingVermin|18"
+						"Utilitarian|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2",
+						"Helping Shield|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2",
+						"Natural Healer|Protection|Jude-Baldonado|Inspiration|Jude-Baldonado|6",
+						"Proud Spirit|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|10",
+						"Perfected Spirit|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|18"
 					],
-					"source": "SterlingVermin",
+					"source": "Jude-Baldonado",
 					"shortName": "Inspiration"
 				},
 				{
@@ -507,7 +503,7 @@
 						"Self Reflection|Aegis|SterlingVermin|Displacement|SterlingVermin|10",
 						"Vehement Spirit|Aegis|SterlingVermin|Displacement|SterlingVermin|18"
 					],
-					"source": "SterlingVermin",
+					"source": "Jude-Baldonado",
 					"shortName": "Displacement"
 				},
 				{
@@ -519,7 +515,7 @@
 						"Chosen Embrace|Aegis|SterlingVermin|The Destroyer|SterlingVermin|10",
 						"Destructive Shield|Aegis|SterlingVermin|The Destroyer|SterlingVermin|18"
 					],
-					"source": "SterlingVermin",
+					"source": "Jude-Baldonado",
 					"shortName": "The Destroyer"
 				}
 			],
@@ -599,6 +595,40 @@
 			}
 		]
 		},
+		{
+			"name": "Shield Arts"
+			"source": "Ferryman_Gaming"
+			"className": "Aegis"
+			"classSource": "Jude-Baldonado"
+			"level": 1,
+			"entries": [
+				"The details of how you Safeguard with your selected shield art are shown below, as well as any additional benefits provided by your choice. Once selected, you cannot change your shield art at any point",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"name": "Balwark"
+							"entries": [
+								"You are proficient with tower shields, a heavier and stronger protection. While wielding this shield, you can use an action to raise it, causing attackers to have disadvantage and you to have advantage on Dexterity saving throws, and can use a bonus action to lower the shield again.",
+								"While you hold the shield up, your movement becomes 0, but you can use a dash action to move.",
+								"Additionally, you can provide full cover to a creature who is within 5 feet of you as a reaction. The target creature cannot be targetted by an attack or spell, although some spells can reach a target by including it in an area of effect"
+							]
+						},
+						{
+							"name": "Dual Shield"
+							"entries": [
+								"When using this shield art, you can wield a shield in each hand, but do not gain the AC bonus from the secondary shield.",
+								"While wielding a shield in each hand this way, the second shield is considered a simple melee weapon, and deals 1d6 bludgeoning damage on a hit.",
+								"Additionally, if an attack is rolled against a creature within 5 feet of you, as a reaction you can provide three-quarters cover, which provides a +5 bonus to AC and dexterity saving throws."
+							]
+						},
+						{
+							"name": "Weapon and Shield"
+							"entries": [
+								"When using a weapon and shield, if an attack is made against another creature within 5 feet of you, as a reaction you can provide half-cover.",
+								"This provides a +2 AC and Dexterity saving throw bonus to the creature. If the creature is hit, you reduce the damage by your Intelligence modifier (minimum 1)."
+							]
+						},
 		{
 			"name": "Fisticuffs",
 			"source": "SterlingVermin",
