@@ -628,24 +628,54 @@
 			]
 		},
 		{
-			"name": "Fisticuffs",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 1,
+			"name": "Vanguard of Protection",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
+			"level": 2,
 			"entries": [
-				"At 1st level, your years of fighting in back alleys and taverns have given you mastery over combat styles that use unarmed strikes and pugilist weapons, which are simple melee weapons without the two-handed property, whips, and improvised weapons. You may not use the finesse property of a weapon while using it as a pugilist weapon",
-				"You gain the following benefits while you are unarmed or using only pugilist weapons and you are wearing light or no armor and not using a {@item shield}:",
-				{
-					"type": "list",
-					"items": [
-						"You can roll a d6 in place of the normal damage of your unarmed strike or pugilist weapon. This die changes as you gain pugilist levels, as shown in the Fisticuffs column on the Pugilist table.",
-						"When you use the Attack action with an unarmed strike or a pugilist weapon on your turn, you can make one unarmed strike or grapple as a bonus action."
-					]
-				}
-					]
-				}
+				"At 2nd level you realize your spirit that drives you, and others, is more than just an ideal, and you commit to a way of the vanguard",
+				"You can choose the Vanguard of Inspiration, the Vanguard of Displacement, or the Vanguard of The Destroyer, all detailed at the end of the class description. Your vanguard choice grants you additional features at 2nd level and again at 6th, 10th, 14th, and 18th levels."
 			]
+		},
+		{
+			"name": "Unkown Petitions",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
+			"level": 2,
+			"entries": [
+				"Your pleas to the unknown for help against your enemies have been heard and you are now able to call upon your spirit to enhance yourself, and those around you. Starting at 2nd level, you gain 2 unknown petitions of your choice, which are determined by the vanguard you choose.",
+				"You unlock two additional petitions at 6th level, and again at 10th, 14th, and 18th levels. These petitions you select are determined by the Vanguard of Protection you choose and are detailed in your vanguard description.",
+				{
+					"name": "Spirit",
+					"entries": [
+						"Your Unknown Petitions are fueled by your Spirit. You can only beseech so many of these petiions before a short or long rest is needed, at which point your spirit points regenerate.",
+						"Your spirit level is determined by your aegis level, which determines the number of Spirit points you have to spend, and can be seen under the Spirit Points column in the aegis table. These points can be spent on various petitions that are fueled by your spirit.",
+						"When you spend a spirit point, it is not available again until you take a short or long rest. As long as you have spirit points, you have no limit on how many times these petitions can be used."
+					]
+				},
+				{
+					"name": "Casting Unknow Petitions",
+					"entries": [
+						"To cast one of the unknown petitions, you must have the required spirit cost available and have a spirit focus present on your character at the time of casting. This can be anything like a book, a relic, or even a torn page of text, but it must be held in one hand. At your DM's permission, a focus such as a torn page or trinket can be attached to a shield or weapon and counts as being held."
+					]
+						{
+							"type": "abilityDc",
+							"name": "Spirit",
+							"attributes": [
+								"int"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spirit",
+							"attributes": [
+								"int"
+							]
+						}
+					}
+				]
 		},
 		{
 			"name": "Moxie",
@@ -697,16 +727,6 @@
 			"level": 3,
 			"entries": [
 				"Starting at 3rd level, when you take damage that reduces you to half your maximum hit points or less, you can use your reaction to gain temporary hit points equal to your pugilist level + your Constitution modifier and you regain all expended moxie points. You cannot use this feature again until you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Fight Club",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 3,
-			"entries": [
-				"Starting at 3rd level, you choose a fight club that best exemplifies your style: Arena Royale, Bloodhound Bruisers, Dog & Hound, Hand of Dread, Piss & Vinegar, the Squared Circle, or the Sweet Science, all detailed at the end of the class description. Your fight club grants you features at 3rd level and again at 6th, 11th, and 17th level."
 			]
 		},
 		{
