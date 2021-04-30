@@ -660,7 +660,8 @@
 						"To cast one of the unknown petitions, you must have the required spirit cost available and have a spirit focus present on your character at the time of casting. This can be anything like a book, a relic, or even a torn page of text, but it must be held in one hand. At your DM's permission, a focus such as a torn page or trinket can be attached to a shield or weapon and counts as being held."
 					]
 				}
-			],
+				]
+				},
 							{
 							"type": "abilityDc",
 							"name": "Spirit",
