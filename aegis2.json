@@ -4,7 +4,7 @@
 		"sources": [
 			{
 				"json": "Ferryman_Gaming",
-				"abbreviation": "SVM",
+				"abbreviation": "FMG",
 				"full": "The Aegise Class",
 				"authors": [
 					"Jude-Baldonado"
@@ -18,7 +18,7 @@
 			},
 			{
 				"json": "Ferryman_Gaming",
-				"abbreviation": "SVMP",
+				"abbreviation": "FMG",
 				"full": "Subclasses for the Aegis",
 				"authors": [
 					"Jude-Baldonado"
