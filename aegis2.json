@@ -652,14 +652,15 @@
 					"entries": [
 						"Your Unknown Petitions are fueled by your Spirit. You can only beseech so many of these petiions before a short or long rest is needed, at which point your spirit points regenerate.",
 						"Your spirit level is determined by your aegis level, which determines the number of Spirit points you have to spend, and can be seen under the Spirit Points column in the aegis table. These points can be spent on various petitions that are fueled by your spirit.",
-						"When you spend a spirit point, it is not available again until you take a short or long rest. As long as you have spirit points, you have no limit on how many times these petitions can be used."
-					]
-				},
+						"When you spend a spirit point, it is not available again until you take a short or long rest. As long as you have spirit points, you have no limit on how many times these petitions can be used.",
 				{
+					"type": "entries",
 					"name": "Casting Unknow Petitions",
 					"entries": [
 						"To cast one of the unknown petitions, you must have the required spirit cost available and have a spirit focus present on your character at the time of casting. This can be anything like a book, a relic, or even a torn page of text, but it must be held in one hand. At your DM's permission, a focus such as a torn page or trinket can be attached to a shield or weapon and counts as being held."
 					]
+				}
+			],
 						{
 							"type": "abilityDc",
 							"name": "Spirit",
@@ -673,8 +674,8 @@
 							"attributes": [
 								"int"
 							]
-						},
-					]
+					}
+				]
 		},
 		{
 			"name": "Moxie",
