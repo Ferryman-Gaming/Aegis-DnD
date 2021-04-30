@@ -677,64 +677,22 @@
 								]
 							}
 						]
-					},
-		{
-			"name": "Moxie",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 2,
-			"entries": [
-				"Starting at 2nd level, your experience laying the beatdown on others has given you a moxie you can channel in the midst of battle. This swagger is represented by a number of moxie points. Your pugilist level determines the maximum number of points you have, as shown in the Moxie Points column of the Pugilist table.",
-				"You can spend these points to fuel various moxie features. You start knowing three such features: Brace Up, The Old One-Two, and Stick and Move. You learn more moxie features as you gain levels in this class. You regain all expended moxie points when you complete a short or long rest.",
-				{
-					"type": "entries",
-					"name": "Brace Up",
-					"entries": [
-						"You can use a bonus action and spend 1 moxie point to brace for attacks. Roll your fisticuffs die + your pugilist level + your Constitution modifier and gain that many temporary hit points."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "The Old One-Two",
-					"entries": [
-						"Immediately after you take the Attack action on your turn, you can spend 1 moxie point to make two unarmed strikes as a bonus action."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Stick and Move",
-					"entries": [
-						"You can use a bonus action and expend 1 moxie point to make a shove attack or the Dash action."
-					]
-				}
-			]
 		},
 		{
-			"name": "Street Smart",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 2,
-			"entries": [
-				"Beginning at 2nd level, carousing, shadowboxing, and sparring all count as light activity for the purposes of resting for you. Additionally, once you have caroused in a settlement for 8 hours or more, you know all public locations in the city as if you were born and raised there and you cannot be lost by non-magical means while within the city."
-			]
-		},
-		{
-			"name": "Bloodied but Unbowed",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Battle Strategist",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 3,
 			"entries": [
-				"Starting at 3rd level, when you take damage that reduces you to half your maximum hit points or less, you can use your reaction to gain temporary hit points equal to your pugilist level + your Constitution modifier and you regain all expended moxie points. You cannot use this feature again until you finish a short or long rest."
-			]
+				"Beginning at 3rd level, you've made it a point to setup thebattle field for your allies. You can now add yourIntelligence modifier to initiative rolls (minimum 1)."
+				]
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -742,80 +700,32 @@
 			]
 		},
 		{
-			"name": "Dig Deep",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 4,
-			"entries": [
-				"Beginning at 4th level, you discover a strength inside you that can't be broken. As a bonus action you gain resistance to bludgeoning, piercing, and slashing damage for one minute. At the end of that minute you gain a level of {@condition exhaustion}."
-			]
-		},
-		{
-			"name": "Extra Attack",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Spiritual Insight",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Daldonado",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+				"At 5th level, when in the presence of a deity, demon, or devil, you are able to see past the facade they put on.",
+				"Whenever a celestial or fiend tries to use their will or power to deceive, intimidate, or persuade you, they gain disadvantage on ability checks associated with that skill.",
+				"As an action, you can expend one spirit point to extend this ability to a number of creatures equal to your Intelligence modifier (minimum 1) for 1 minute."
 			]
 		},
 		{
-			"name": "Haymaker",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 5,
-			"entries": [
-				"Starting at 5th level, before you make an attack roll with an unarmed strike or pugilist melee weapon attack that does not already have disadvantage you can declare you are swinging wild haymakers. You make all attack rolls until the end of this turn with disadvantage and when you deal damage you do not roll for damage but use the maximum die result instead."
-			]
-		},
-		{
-			"name": "Moxie-Fueled Fists",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Vanguard feature",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 6,
 			"entries": [
-				"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage."
-			]
-		},
-		{
-			"name": "Fight Club feature",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 6,
-			"entries": [
-				"At 6th level, you gain one feature granted by your Fight Club."
-			]
-		},
-		{
-			"name": "Fancy Footwork",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 7,
-			"entries": [
-				"At 7th level, you gain proficiency in Dexterity saving throws."
-			]
-		},
-		{
-			"name": "Shake it Off",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 7,
-			"entries": [
-				"Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be {@condition charmed} or {@condition frightened}."
+				"At 6th level, you gain one feature granted by your Vanguard."
 			]
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -823,40 +733,44 @@
 			]
 		},
 		{
-			"name": "Down but Not Out",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Gliding Spirit",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 9,
 			"entries": [
-				"At 9th level, when you use your Bloodied but Unbowed feature you can choose to also use this feature. If you do, you add your proficiency bonus to your damage with unarmed attacks and pugilist weapons for the next minute. You can use this feature again after you complete a long rest."
+				"Beginning at 9th level, your spirit automatically reacts for you at times when you or a creature in sight is attacked",
+				"If you should be targetted by an attack, you can as a reaction spend one spirit point to move 5 feet in any direction to cause that attack to have disadvantage.",
+				"Also, if a creature is attacked within 20 feet of you, you can as a reaction spend two spirit points to move within range of that creature and safeguard it.",
+				"can now use an additional reaction each round."
 			]
 		},
 		{
-			"name": "School of Hard Knocks",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Vanguard feature",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 10,
 			"entries": [
-				"By 10th level, you've graduated top of the class at the school of hard knocks and you took most of them on the head. You have resistance to psychic damage and gain advantage on saving throws against effects that would make you stunned or unconscious."
+				"At 10th level, you gain one feature granted by your Vanguard."
 			]
 		},
 		{
-			"name": "Fight Club feature",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Spirit Armor",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 11,
 			"entries": [
-				"At 11th level, you gain a feature granted by your Fight Club."
+				"Starting at 11th level, after a short or long rest, you can expend two spirit points to have your spirit act as a first line of defense for yourself.",
+				"If you would take damage that is equal, or less than your Aegis level + your Constitution modifier (minimum 1), your spirit blocks the damage and you take none. The first time you would take damage that exceeds this threshold, you lose the effect of this armor and that damage is reduced by your threshold until the end of that turn."
 			]
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -864,40 +778,53 @@
 			]
 		},
 		{
-			"name": "Rabble Rouser",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 13,
-			"entries": [
-				"Starting at 13th level, word of your exploits travels quickly in cities and other settlements. Once you have taken a long rest by carousing in a settlement you gain advantage on all Charisma ({@skill Persuasion}) and Charisma ({@skill Intimidation}) rolls made against the people who live there."
-			]
-		},
-		{
-			"name": "Unbreakable",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Shield Master",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 14,
 			"entries": [
-				"Starting at 14th level, you gain advantage on Strength, Dexterity, and Constitution saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 moxie point to reroll it and take the second result."
+				"At 14th level, you have mastered your Shield Art beyond measure. You can take a third reaction each round. You also gain the following benefits pertaining to the shield art you chose:",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"name": "Balwark",
+							"entries": [
+								"If you should hit a creature with an attack, you can use a bonus action to shove that same creature back 10 feet. You are now able to use Dash and Disengage as additional bonus actions on your turn."
+							]
+						},
+						{
+							"name": "Dual Shield",
+							"entries": [
+								"You gain the bonus AC from your second shield and both shields are now considered light melee weapons for the purpose of two-weapon fighting. Both shields now also do 1d8 bludgeoning damage."
+							]
+						},
+						{
+							"name": "Weapon and Shield",
+							"entries": [
+								"You now have advantage when attacking a creature. If you successfully Safeguard a creature, you can use an additional reaction to attack the creature who attacked. You don't add your ability modifier to the damage of the attack, unless that modifier is negative."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
-			"name": "Herculean",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 15,
+			"name": "Vanguard feature",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
+			"level": 14,
 			"entries": [
-				"At 15th level, your carrying capacity is doubled, and when you deal damage with a melee weapon or unarmed strike to an inanimate object that damage is doubled. Your standing jump distance is the same as your running start jump distance."
+				"At 14th level, you gain one feature granted by your Vanguard."
 			]
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -905,30 +832,30 @@
 			]
 		},
 		{
-			"name": "Fight Club feature",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Extension of Ones Self",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 17,
 			"entries": [
-				"At 17th level, you gain a feature granted by your Fight Club."
+				"At 17th level, while your Spirit Armor is active, and if you fail to Safeguard a creature and it takes damage, you can use a second reaction and expend three spirit points to transfer your Spirit Armor to the creature until the start of your next turn to attempt to avoid that damage, but this must be done before the damage is calculated. If the armor is not destroyed, it transfers back to you at the beginning of your next turn."
 			]
 		},
 		{
-			"name": "Fighting Spirit",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Vanguard feature",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 18,
 			"entries": [
-				"Starting at 18th level, when you have 4 levels of {@condition exhaustion} or fewer and are reduced to 0 hit points, you regain half of your maximum hit points, half of your maximum moxie points, and gain a level of {@condition exhaustion}. You cannot use this feature again until you complete a long rest."
+				"At 18th level, you gain one feature granted by your Vanguard."
 			]
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -936,78 +863,13 @@
 			]
 		},
 		{
-			"name": "Peak Physical Condition",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
+			"name": "Unbreaking Shield",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
 			"level": 20,
 			"entries": [
-				"At 20th level, your Strength and Constitution ability scores increase by 2 to a maximum of 22. Additionally, when you take a long rest you recover 2 levels of {@condition exhaustion} instead of 1 and you regain all your expended hit dice instead of half your expended hit dice."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 4,
-			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 8,
-			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 12,
-			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 16,
-			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "UAClassFeatureVariants",
-			"page": 1,
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"level": 19,
-			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
+				"At 20th level, you can now Safeguard a creature within 10 feet of you. Also, if your hit points would drop to 0 while Safeguard is active, you can expend one spirit point and get up with 1 hit point. This can only be used once before a long rest is needed."
 			]
 		}
 	],
