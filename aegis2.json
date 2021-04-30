@@ -875,93 +875,96 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Arena Royale",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"subclassShortName": "Arena Royale",
-			"subclassSource": "SterlingVermin",
-			"level": 3,
+			"name": "Vanguard of Inspiration",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
+			"subclassShortName": "Inspiration",
+			"subclassSource": "jude-Baldonado",
+			"level": 2,
 			"entries": [
-				"Pugilists in the Arena Royale fight club travel the world earning their keep as equal parts performer and gladiator. Whether performing in staged physical competitions, or fighting it out in unscripted brawls, pugilists in the Arena Royale care as much about the theatrics of a fight as they do its outcome. Pugilists in this fight club also care deeply about their reputation and work to build up local and regional legends about their performing personas.",
+				"Some aegis understand that the beliefs of the world have weakened others and their limits, so they aim to help others go beyond those limits.",
+				"The aegis will use their own words, knowhow, and spirit to rally adventurers to do things like increase their power, encourage them to overcome difficult situations, to heal them during combat, or even shield them with their spirit from afar.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Pugilist|SterlingVermin|Arena Royale|SterlingVermin|3"
+					"subclassFeature": "Utilitarian|Aegis|Ferryman_Gaming|Inspiration|Jude-Baldonado|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Persona Libre|Pugilist|SterlingVermin|Arena Royale|SterlingVermin|3"
+					"subclassFeature": "Helping Shield|Aegis|Ferryman_Gaming|Inspiration|Jude-Baldonado|2"
 				}
 			]
 		},
 		{
 			"type": "entries",
-			"name": "Bonus Proficiency",
+			"name": "Utilitarian",
 			"entries": [
-				"Starting when you choose this Fight Club at 3rd level, you gain proficiency in the Performance skill, if you don't have it already. If you do, you gain proficiency in your choice of the {@skill Intimidation} or {@skill Persuasion} skill."
+				"Starting at 2nd level, you realize the importance of having a deep list of petitions to assist those around you. When you would learn two new petitions at 2nd, 6th, 10th, 14th, and 18th levels, you instead learn three and can replace two existing petitions instead of one."
 			],
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"subclassShortName": "Arena Royale",
-			"subclassSource": "SterlingVermin",
-			"level": 3,
+			"source": "Ferryman_Gaming",
+			"className": "Ageis",
+			"classSource": "Jude-Baldonado",
+			"subclassShortName": "Inspiration",
+			"subclassSource": "Jude-Baldonado",
+			"level": 2,
 			"header": 1
 		},
 		{
 			"type": "entries",
-			"name": "Persona Libre",
+			"name": "Helping Shield",
 			"entries": [
-				"Also at 3rd level, you create an alternate persona that you can adopt or discard as a bonus action on your turn. When you create an alternate persona you should give the persona a striking name as well as some physical signifier (such as a mask, colorful cape, or another prominent idiosyncratic feature). Unless you tell a creature, or the creature sees you adopt your persona, they do not know you and the adopted persona are the same person.",
-				"Additionally, you have a pool of persona points equal to 3 + your Charisma modifier (minimum 1). When you use an ability that costs moxie points, you can spend persona points instead. In addition, before you make a Charisma ability check you can spend a persona point to add your Strength modifier to the result. You can only use persona points while you have adopted your persona. You regain all expended persona points when you finish a long rest."
+				"At 2nd level, you dedicate yourself to the enhancement of those around you so that they have the power to help themselves, at least for the time you are around. This vanguard requires you to spend your spirit points each time you use a petition.",
+				"You can now embolden adventurers using several petitions. You choose three petitions when you pick this vanguard, which are detailed in the Embolden Petitions list below. You learn three additional embolden petitions at 6th, 10th, 14th, and 18th level.",
+				"Whenever you learn a new embolden petition, you can also replace two embolden petitions you know with a different petitions."
 			],
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"subclassShortName": "Arena Royale",
-			"subclassSource": "SterlingVermin",
-			"level": 3,
+			"source": "Ferryman_Gaming",
+			"className": "Ageis",
+			"classSource": "Jude-Baldonado",
+			"subclassShortName": "Inspiration",
+			"subclassSource": "Jude-Baldonado",
+			"level": 2,
 			"header": 1
 		},
 		{
-			"name": "Work the Crowd",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"subclassShortName": "Arena Royale",
-			"subclassSource": "SterlingVermin",
+			"name": "Natural Healer",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
+			"subclassShortName": "Inspiration",
+			"subclassSource": "Jude-Baldonado",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, while you have adopted your alternate persona, you can use your action to inspire your choice of fear or adoration in those nearby. When you do, all creatures within 30 feet who can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be {@condition charmed}, if you chose adoration, or {@condition frightened} if you chose fear. This effect lasts for one minute. Each time a creature takes damage from you or one of your allies it can repeat the saving throw, ending the effect on a success. You can use this feature again after you finish a long rest."
+				"Beginning at 6th level, you can create special herbal poultices that have healing power comparable to some potions. You can spend 1 hour gathering herbs and preparing herbal poultices using treated bandages to create a number of such poultices equal to your Intelligence modifier (minimum 1). You can carry a number of poultices equal to your Intelligence modifier (minimum 1).",
+				"The poultices you create cannot be applied by anyone but you. After 24 hours, any poultices that you have not used lose their potency. If you spend 1 minute applying one of your poultices to a wounded humanoid creature, thereby expending its use, that creature regains 1d6 hit points for every two aegis levels you have. You can apply poultices during battle to heal yourself or a creature, but it uses an action on your turn, and takes until the end of your next turn to complete. You also cannot move or use other actions during this time."
 			]
 		},
 		{
-			"name": "High Flyer",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"subclassShortName": "Arena Royale",
-			"subclassSource": "SterlingVermin",
-			"level": 11,
+			"name": "Proud Spirit",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
+			"subclassShortName": "Inspiration",
+			"subclassSource": "Jude-Baldonado",
+			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 11th level, your base movement increases by 10 feet, your jump distance is doubled, and you can use a bonus action on your turn to take the {@action Dash} action."
+				"At 10th level, you become so proud of those you inspire, any time a creature in your party kills another creature, you gain back 2 spirit points. The creature that made the kill must have been Safeguarded by you before the turn the kill occurred, and a creature with a CR of 1/2 or higher must have been killed."
 			]
 		},
 		{
-			"name": "Signature Move",
-			"source": "SterlingVermin",
-			"className": "Pugilist",
-			"classSource": "SterlingVermin",
-			"subclassShortName": "Arena Royale",
-			"subclassSource": "SterlingVermin",
-			"level": 17,
+			"name": "Perfected Spirit",
+			"source": "Ferryman_Gaming",
+			"className": "Aegis",
+			"classSource": "Jude-Baldonado",
+			"subclassShortName": "Inspiration",
+			"subclassSource": "Jude-Baldonado",
+			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 17th level, you create a signature move that you can use while you have adopted your alternate persona. Give your signature move a name and a description. You can replace one of your unarmed attacks or attacks with a pugilist weapon on your turn with this signature move.",
-				"When you use your signature move, you can jump in any direction up to your movement speed, make an attack roll with advantage against a creature in your reach and, if you hit, the attack is a critical and the creature is {@condition stunned} until the end of your next turn.",
-				"If you hit with your signature move, you must finish a long rest before you can use it again. If you miss with your signature move, you regain the use of it after 1 minute."
+				"At 18th level, you have learned to perfect your control of your Spirit. You can control your Spirit and energy within yourself, and expend three spirit points to use a bonus action on your turn to become ethereal for up to 1 minute, but only if you take the bonus action first on your turn.",
+				"During this time, you can not be touched or attacked by other creatures, but you are able to interact with yourself and creatures around you. You can move up to your movement speed on your turn while in Perfected Spirit.",
+				"You can still use your unknown petitions and even use your Poultices while in Perfected Spirit, but this effect ends if you attack a target. You can choose to end Perfected Spirit on your turn as a bonus action. This can only be used once before a long rest is needed"
 			]
 		},
 		{
