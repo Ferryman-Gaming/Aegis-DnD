@@ -622,7 +622,11 @@
 								"When using a weapon and shield, if an attack is made against another creature within 5 feet of you, as a reaction you can provide half-cover.",
 								"This provides a +2 AC and Dexterity saving throw bonus to the creature. If the creature is hit, you reduce the damage by your Intelligence modifier (minimum 1)."
 							]
-						},
+						}
+					]
+				}
+			]
+		},
 		{
 			"name": "Fisticuffs",
 			"source": "SterlingVermin",
