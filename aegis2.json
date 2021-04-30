@@ -661,22 +661,22 @@
 					]
 				}
 			],
-						{
+							{
 							"type": "abilityDc",
 							"name": "Spirit",
 							"attributes": [
 								"int"
-							]
-						},
-						{
+								]
+							},
+							{
 							"type": "abilityAttackMod",
 							"name": "Spirit",
 							"attributes": [
 								"int"
-							]
-					}
-				]
-		},
+								]
+							}
+						]
+					},
 		{
 			"name": "Moxie",
 			"source": "SterlingVermin",
