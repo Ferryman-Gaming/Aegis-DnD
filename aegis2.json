@@ -1,8 +1,7 @@
 {
 	"$schema": "../schema.json",
 	"_meta": {
-		"sources": [
-			{
+		"sources": [{
 				"json": "Ferryman_Gaming",
 				"abbreviation": "FMG",
 				"full": "The Aegise Class",
@@ -34,539 +33,466 @@
 		"dateAdded": 1516994880,
 		"dateLastModified": 1614777170
 	},
-	"class": [
-		{
-			"name": "Aegis",
-			"source": "Jude-Baldonado",
-			"hd": {
-				"number": 1,
-				"faces": 10
-			},
-			"proficiency": [
-				"con",
-				"int"
+	"class": [{
+		"name": "Aegis",
+		"source": "Jude-Baldonado",
+		"hd": {
+			"number": 1,
+			"faces": 10
+		},
+		"proficiency": [
+			"con",
+			"int"
+		],
+		"classTableGroups": [{
+			"colLabels": [
+				"Poultices",
+				"Spirit Points",
+				"Petitions Known"
 			],
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"Poultices",
-						"Spirit Points",
-						"Petitions Known"
-					],
-					"rows": [
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 0,
-										"faces": 6
-									}
-								]
-							},
-							0
-						],
+			"rows": [
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 0,
+								"faces": 6
+							}]
+						},
 						0
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 0,
-										"faces": 6
-									}
-								]
-							},
-							2
-						],
+					0
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 0,
+								"faces": 6
+							}]
+						},
 						2
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 2,
-										"faces": 6
-									}
-								]
-							},
-							3
-						],
-						2
+					2
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 2,
+								"faces": 6
+							}]
+						},
+						3
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 2,
-										"faces": 6
-									}
-								]
-							},
-							4
-						],
-						2
-					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 3,
-										"faces": 6
-									}
-								]
-							},
-							5
-						],
-						2
-					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 3,
-										"faces": 6
-									}
-								]
-							},
-							6
-						],
+					2
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 2,
+								"faces": 6
+							}]
+						},
 						4
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 4,
-										"faces": 6
-									}
-								]
-							},
-							7
-						],
-						4
+					2
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 3,
+								"faces": 6
+							}]
+						},
+						5
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 4,
-										"faces": 6
-									}
-								]
-							},
-							8
-						],
-						4
-					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 5,
-										"faces": 6
-									}
-								]
-							},
-							9
-						],
-						4
-					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 5,
-										"faces": 6
-									}
-								]
-							},
-							10
-						],
+					2
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 3,
+								"faces": 6
+							}]
+						},
 						6
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 6,
-										"faces": 6
-									}
-								]
-							},
-							11
-						],
-						6
+					4
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 4,
+								"faces": 6
+							}]
+						},
+						7
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 6,
-										"faces": 6
-									}
-								]
-							},
-							12
-						],
-						6
-					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 7,
-										"faces": 6
-									}
-								]
-							},
-							13
-						],
-						6
-					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 7,
-										"faces": 6
-									}
-								]
-							},
-							14
-						],
+					4
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 4,
+								"faces": 6
+							}]
+						},
 						8
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 8,
-										"faces": 6
-									}
-								]
-							},
-							15
-						],
-						8
+					4
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 5,
+								"faces": 6
+							}]
+						},
+						9
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 8,
-										"faces": 6
-									}
-								]
-							},
-							16
-						],
-						8
-					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 9,
-										"faces": 6
-									}
-								]
-							},
-							17
-						],
-						8
-					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 9,
-										"faces": 6
-									}
-								]
-							},
-							18
-						],
+					4
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 5,
+								"faces": 6
+							}]
+						},
 						10
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 10,
-										"faces": 6
-									}
-								]
-							},
-							19
-						],
-						10
+					6
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 6,
+								"faces": 6
+							}]
+						},
+						11
 					],
-						[
-						[
-							{
-								"type": "dice",
-								"toRoll": [
-									{
-										"number": 10,
-										"faces": 6
-									}
-								]
-							},
-							20
-						],
-						10
+					6
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 6,
+								"faces": 6
+							}]
+						},
+						12
 					],
+					6
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 7,
+								"faces": 6
+							}]
+						},
+						13
+					],
+					6
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 7,
+								"faces": 6
+							}]
+						},
+						14
+					],
+					8
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 8,
+								"faces": 6
+							}]
+						},
+						15
+					],
+					8
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 8,
+								"faces": 6
+							}]
+						},
+						16
+					],
+					8
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 9,
+								"faces": 6
+							}]
+						},
+						17
+					],
+					8
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 9,
+								"faces": 6
+							}]
+						},
+						18
+					],
+					10
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 10,
+								"faces": 6
+							}]
+						},
+						19
+					],
+					10
+				],
+				[
+					[{
+							"type": "dice",
+							"toRoll": [{
+								"number": 10,
+								"faces": 6
+							}]
+						},
+						20
+					],
+					10
+				]
+			]
+		}],
+		"startingProficiencies": {
+			"armor": [
+				"all armour",
+				"shields"
+			],
+			"weapons": [
+				"simple",
+				"{@item flail|phb|flail}",
+				"{@item warhammer|phb|warhammer}"
+			],
+			"tools": [
+				"your choice of one artisan's tools"
+			],
+			"skills": [{
+				"choose": {
+					"from": [
+						"animal handling",
+						"athletics",
+						"history",
+						"nature",
+						"religion",
+						"survival"
+					],
+					"count": 2
+				}
+			}]
+		},
+		"startingEquipment": {
+			"additionalFromBackground": true,
+			"default": [
+				"(a) {@item flail|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} or (c) {@item shield|phb}",
+				"(a) {@item leather armor|phb} or (b) {@item scale mail|phb} or (c) {@item chain mail|phb}",
+				"(a) two {@item light hammer|phb} or (b) two {@item javelin|pbh}",
+				"{@item shield|phb}, {@item explorer's pack|phb}, and a sprit focus"
+			],
+			"defaultData": [{
+					"a": [
+						"flail|phb"
+					],
+					"b": [{
+						"equipmentType": "weaponSimple"
+					}],
+					"c": [
+						"shield|phb"
+					]
+				},
+				{
+					"a": [
+						"leather armor|phb"
+					],
+					"b": [
+						"scale mail|phb"
+					],
+					"c": [
+						"chain mail|phb"
+					]
+				},
+				{
+					"a": [
+						"light hammer|phb"
+					],
+					"b": [
+						"javelin|phb"
 					]
 				}
-			],
-			"startingProficiencies": {
+			]
+		},
+		"classFeatures": [
+			"Safeguard|Aegis|Jude-Baldonado|1",
+			"Shield Arts|Aegis|Jude-Baldonado|1",
+			"Spirit|Aegis|Jude-Baldonado|2",
+			"Unknown Petitions|Aegis|Jude-Baldonado|2",
+			{
+				"classFeature": "Path of Protection|Aegis|Jude-Baldonado|2",
+				"gainSubclassFeature": true
+			},
+			"Battle Strategist|Aegis|Ferryman_Gaming|3",
+			"Ability Score Improvement|Aegis|Jude-Baldonado|4",
+			"Spiritual Insight|Aegis|Jude-Baldonado|5",
+			{
+				"classFeature": "Path feature|Aegis|Jude-Baldonado|6",
+				"gainSubclassFeature": true
+			},
+			"Ability Score Improvement|Aegis|Jude-Baldonado|8",
+			"Gliding Spirit|Aegis|Jude-Baldonado|9",
+			{
+				"classFeature": "Path feature|Aegis|Jude-Baldonado|10",
+				"gainSubclassFeature": true
+			},
+			"Spirit Armor|Aegis|Jude-Baldonado|11",
+			"Ability Score Improvement|Aegis|Jude-Baldonado|12",
+			"Shield Master|Aegis|Jude-Baldonado|14",
+			"Ability Score Improvement|Aegis|Jude-Baldonado|16",
+			"Extension of Ones Self|Aegis|Jude-Baldonado|17",
+			{
+				"classFeature": "Path feature|Aegis|Jude-Baldonado|18",
+				"gainSubclassFeature": true
+			},
+			"Ability Score Improvement|Aegis|Jude-Baldonado|19",
+			"Unbreaking Shield|Aegis|Jude-Baldonado|20"
+		],
+		"multiclassing": {
+			"requirements": {
+				"int": 13
+			},
+			"proficienciesGained": {
 				"armor": [
-					"all armour",
 					"shields"
 				],
 				"weapons": [
-					"simple",
-					"{@item flail|phb|flail}",
-					"{@item warhammer|phb|warhammer}"
-				],
-				"tools": [
-					"your choice of one artisan's tools"
-				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"animal handling",
-								"athletics",
-								"history",
-								"nature",
-								"religion",
-								"survival"
-							],
-							"count": 2
-						}
-					}
+					"improvised weapons"
 				]
-			},
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(a) {@item flail|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon} or (c) {@item shield|phb}",
-					"(a) {@item leather armor|phb} or (b) {@item scale mail|phb} or (c) {@item chain mail|phb}",
-					"(a) two {@item light hammer|phb} or (b) two {@item javelin|pbh}",
-					"{@item shield|phb}, {@item explorer's pack|phb}, and a sprit focus"
+			}
+		},
+		"subclassTitle": "Vanguards of Protection",
+		"subclasses": [{
+				"name": "Inspiration",
+				"subclassFeatures": [
+					"Utilitarian|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2",
+					"Helping Shield|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2",
+					"Natural Healer|Protection|Jude-Baldonado|Inspiration|Jude-Baldonado|6",
+					"Proud Spirit|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|10",
+					"Perfected Spirit|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|18"
 				],
-				"defaultData": [
-					{
-						"a": [
-							"flail|phb"
-						],
-						"b": [
-							{
-								"equipmentType": "weaponSimple"
-							}
-						],
-						"c": [
-						"shield|phb"
-						]
-					},
-					{
-						"a": [
-							"leather armor|phb"
-						],
-						"b": [
-							"scale mail|phb"
-						],
-						"c": [
-							"chain mail|phb"
-						]
-					},
-					{
-						"a": [
-							"light hammer|phb"
-						],
-						"b": [
-						"javelin|phb"
-						]
-					}
-				]
+				"source": "Jude-Baldonado",
+				"shortName": "Inspiration"
 			},
-			"classFeatures": [
-				"Safeguard|Aegis|Jude-Baldonado|1",
-				"Shield Arts|Aegis|Jude-Baldonado|1",
-				"Spirit|Aegis|Jude-Baldonado|2",
-				"Unknown Petitions|Aegis|Jude-Baldonado|2",
-				{
-					"classFeature": "Path of Protection|Aegis|Jude-Baldonado|2",
-					"gainSubclassFeature": true
-				},
-				"Battle Strategist|Aegis|Ferryman_Gaming|3",
-				"Ability Score Improvement|Aegis|Jude-Baldonado|4",
-				"Spiritual Insight|Aegis|Jude-Baldonado|5",
-				{
-					"classFeature": "Path feature|Aegis|Jude-Baldonado|6",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Aegis|Jude-Baldonado|8",
-				"Gliding Spirit|Aegis|Jude-Baldonado|9",
-				{
-					"classFeature": "Path feature|Aegis|Jude-Baldonado|10",
-					"gainSubclassFeature": true
-				},
-				"Spirit Armor|Aegis|Jude-Baldonado|11",
-				"Ability Score Improvement|Aegis|Jude-Baldonado|12",
-				"Shield Master|Aegis|Jude-Baldonado|14",
-				"Ability Score Improvement|Aegis|Jude-Baldonado|16",
-				"Extension of Ones Self|Aegis|Jude-Baldonado|17",
-				{
-					"classFeature": "Path feature|Aegis|Jude-Baldonado|18",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Aegis|Jude-Baldonado|19",
-				"Unbreaking Shield|Aegis|Jude-Baldonado|20"
-			],
-			"multiclassing": {
-				"requirements": {
-					"int": 13,
-				},
-				"proficienciesGained": {
-					"armor": [
-						"shields"
-					],
-					"weapons": [
-						"improvised weapons"
-					]
-				}
+			{
+				"name": "Displacement",
+				"subclassFeatures": [
+					"Opposites Repel|Aegis|SterlingVermin|Displacement|SterlingVermin|2",
+					"Master of Force|Aegis|Ferryman_Gaming|Displacement|Ferryman_Gamaing|2",
+					"One With Your Weapon|Aegis|SterlingVermin|Displacement|SterlingVermin|6",
+					"Self Reflection|Aegis|SterlingVermin|Displacement|SterlingVermin|10",
+					"Vehement Spirit|Aegis|SterlingVermin|Displacement|SterlingVermin|18"
+				],
+				"source": "Jude-Baldonado",
+				"shortName": "Displacement"
 			},
-			"subclassTitle": "Vanguards of Protection",
-			"subclasses": [
+			{
+				"name": "The Destroyer",
+				"subclassFeatures": [
+					"Embrace Both Sides|Aegis|SterlingVermin|The Destroyer|SterlingVermin|3",
+					"Maaster of Destruction|Aegis|Ferryman_Gaming|The Destroyer|Ferryman_Gaming|2",
+					"Redoubt of Power|Aegis|SterlingVermin|The Destroyer|SterlingVermin|6",
+					"Chosen Embrace|Aegis|SterlingVermin|The Destroyer|SterlingVermin|10",
+					"Destructive Shield|Aegis|SterlingVermin|The Destroyer|SterlingVermin|18"
+				],
+				"source": "Jude-Baldonado",
+				"shortName": "The Destroyer"
+			}
+		],
+		"fluff": [{
+			"name": "Aegis",
+			"type": "section",
+			"page": 1,
+			"entries": [
+				"A burly dwarf clad in plate armor jumps in front of a massive mammoth to shield a lost child on a snow-covered mountain.",
+				"A fierce human sends a blast of his spirit towards a hellish orc, pushing him into the blade of his fellow paladin, taking his head clean off",
+				"Pushing his fellow adventurers to their limits with his inspirational cries, a barbarian is able to overpower an adult dragon with a single blow because of the spirit the tall elf gives to him.",
+				"The Aegis. One who claims to have found some proof that something, or some being, is out there, and being hidden. That this is the real truth. That it is the real power. Concepts of good and evil, varying government types, and even simply the way we go about life are all a fallacy to an aegis.",
+				"Because of this, the aegis has committed their entire being to protecting those who they believe are lost to the world, using any means necessart and knowledge they have gained in their search for truth. But the question is, are aegis the ones who are really under a fallacy?",
 				{
-					"name": "Inspiration",
-					"subclassFeatures": [
-						"Utilitarian|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2",
-						"Helping Shield|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2",
-						"Natural Healer|Protection|Jude-Baldonado|Inspiration|Jude-Baldonado|6",
-						"Proud Spirit|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|10",
-						"Perfected Spirit|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|18"
-					],
-					"source": "Jude-Baldonado",
-					"shortName": "Inspiration"
-				},
-				{
-					"name": "Displacement",
-					"subclassFeatures": [
-						"Opposites Repel|Aegis|SterlingVermin|Displacement|SterlingVermin|2",
-						"Master of Force|Aegis|Ferryman_Gaming|Displacement|Ferryman_Gamaing|2",
-						"One With Your Weapon|Aegis|SterlingVermin|Displacement|SterlingVermin|6",
-						"Self Reflection|Aegis|SterlingVermin|Displacement|SterlingVermin|10",
-						"Vehement Spirit|Aegis|SterlingVermin|Displacement|SterlingVermin|18"
-					],
-					"source": "Jude-Baldonado",
-					"shortName": "Displacement"
-				},
-				{
-					"name": "The Destroyer",
-					"subclassFeatures": [
-						"Embrace Both Sides|Aegis|SterlingVermin|The Destroyer|SterlingVermin|3",
-						"Maaster of Destruction|Aegis|Ferryman_Gaming|The Destroyer|Ferryman_Gaming|2",
-						"Redoubt of Power|Aegis|SterlingVermin|The Destroyer|SterlingVermin|6",
-						"Chosen Embrace|Aegis|SterlingVermin|The Destroyer|SterlingVermin|10",
-						"Destructive Shield|Aegis|SterlingVermin|The Destroyer|SterlingVermin|18"
-					],
-					"source": "Jude-Baldonado",
-					"shortName": "The Destroyer"
-				}
-			],
-			"fluff": [
-				{
-					"name": "Aegis",
-					"type": "section",
-					"page": 1,
+					"type": "entries",
+					"name": "A Deep Caring for all Living Beings",
 					"entries": [
-						"A burly dwarf clad in plate armor jumps in front of a massive mammoth to shield a lost child on a snow-covered mountain.",
-						"A fierce human sends a blast of his spirit towards a hellish orc, pushing him into the blade of his fellow paladin, taking his head clean off",
-						"Pushing his fellow adventurers to their limits with his inspirational cries, a barbarian is able to overpower an adult dragon with a single blow because of the spirit the tall elf gives to him.",
-						"The Aegis. One who claims to have found some proof that something, or some being, is out there, and being hidden. That this is the real truth. That it is the real power. Concepts of good and evil, varying government types, and even simply the way we go about life are all a fallacy to an aegis.",
-						"Because of this, the aegis has committed their entire being to protecting those who they believe are lost to the world, using any means necessart and knowledge they have gained in their search for truth. But the question is, are aegis the ones who are really under a fallacy?",
+						"Many talk of being saved by an iron-clad warrior, in the face of almost certain death, and then never seeing this adventurer again once the danger is taken care of.",
+						"The knowledge they have gained in their travels has aegis believing that most others have no idea of what's truly going on in the multiverse. They believe that lies surround us, and because of this, see others as almost children in a dream.",
+						"Aegis take it upon themselves to do everything they can to protect these dreamers at all costs, even if it costs their own lives, but in the hope for that individual to find the truth, as well as be awoken."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Solitary Life of Searching",
+					"entries": [
+						"An aegis has spent a majority of their life searching for a greater truth. Some event in the past has shown the aegis that the beliefs of the worlds seem to be nothing more than shackles for more powerful beings to use against us. Primarily beings who are revered, such as deities, demons, devils, and prominent figures.",
+						"Being very few and far between, the aegis normally lives a solitary life, and even when they do find other aegis, they normally do not stick together for long as they are all searching for the proof that will finally show everyone that what they have always believed in was a lie.",
+						"They do understand, however, that the answers they may personally seek do require skills beyond what they themselves can do, so they do often partner with other adventurers so they can obtain the proof they need to their questions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creating an Aegis",
+					"entries": [
+						"When creating an aegis, contemplate what event, as well as what higher being, natural event, or prominent figure it was that caused you to seek the truth. Once you have realized that truth, then think of what proof you exactly found. Was it some ancient hieroglyph scrawled across a wall in a deep cave you found, a hidden jar containing very ancient texts that was hidden in a church to a specific higher being, or even a dream.",
+						"When did you first realize further that your belief would provide you a power that was unheard of and allowed you to tap into a spirit you never even knew you had? Were you being pursued by others who were going to persecute you because of your beliefs, and your petition to this unknown belief manifested new abilities. Or maybe laying down the night after finding further proof, you were provided a vision which showed you your abilities, thus pushing you to find and control that power further.",
 						{
 							"type": "entries",
-							"name": "A Deep Caring for all Living Beings",
+							"name": "Quick Build",
 							"entries": [
-								"Many talk of being saved by an iron-clad warrior, in the face of almost certain death, and then never seeing this adventurer again once the danger is taken care of.",
-								"The knowledge they have gained in their travels has aegis believing that most others have no idea of what's truly going on in the multiverse. They believe that lies surround us, and because of this, see others as almost children in a dream.",
-								"Aegis take it upon themselves to do everything they can to protect these dreamers at all costs, even if it costs their own lives, but in the hope for that individual to find the truth, as well as be awoken."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "A Solitary Life of Searching",
-							"entries": [
-								"An aegis has spent a majority of their life searching for a greater truth. Some event in the past has shown the aegis that the beliefs of the worlds seem to be nothing more than shackles for more powerful beings to use against us. Primarily beings who are revered, such as deities, demons, devils, and prominent figures.",
-								"Being very few and far between, the aegis normally lives a solitary life, and even when they do find other aegis, they normally do not stick together for long as they are all searching for the proof that will finally show everyone that what they have always believed in was a lie.",
-								"They do understand, however, that the answers they may personally seek do require skills beyond what they themselves can do, so they do often partner with other adventurers so they can obtain the proof they need to their questions."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Creating an Aegis",
-							"entries": [
-								"When creating an aegis, contemplate what event, as well as what higher being, natural event, or prominent figure it was that caused you to seek the truth. Once you have realized that truth, then think of what proof you exactly found. Was it some ancient hieroglyph scrawled across a wall in a deep cave you found, a hidden jar containing very ancient texts that was hidden in a church to a specific higher being, or even a dream.",
-								"When did you first realize further that your belief would provide you a power that was unheard of and allowed you to tap into a spirit you never even knew you had? Were you being pursued by others who were going to persecute you because of your beliefs, and your petition to this unknown belief manifested new abilities. Or maybe laying down the night after finding further proof, you were provided a vision which showed you your abilities, thus pushing you to find and control that power further.",
-								{
-									"type": "entries",
-									"name": "Quick Build",
-									"entries": [
-										"You can make an aegis quickly by following these suggestions. First, Constitution should be your highest ability score to increase your hit points and AC to be able to provice the most protection, followed by Intelligence. Second, choose the {@background hermit} background."
-									]
-								}
+								"You can make an aegis quickly by following these suggestions. First, Constitution should be your highest ability score to increase your hit points and AC to be able to provice the most protection, followed by Intelligence. Second, choose the {@background hermit} background."
 							]
 						}
 					]
 				}
 			]
-		}
-	],
-	
-	"classFeature": [
-		{
+		}]
+	}],
+
+	"classFeature": [{
 			"name": "Safeguard",
 			"source": "SterlingVermin",
 			"className": "Aegis",
@@ -581,14 +507,14 @@
 						"As a reaction, when an attack is declared on a creature within 5 feet of you, you can provide cover to that creature. The effects of your cover are determined by your Shield Art and last until the end of the current turn, but can only be used once per round.",
 						"If an armor you wear requires you to add your Dexterity modifier to get your total AC, add your Constitution modifier instead.",
 						"You have advantage on saving throws and ability checks against being shoved or knocked prone."
-			],
-			"entries": [
-				"Safeguard lasts for 1 minute. It ends early if you are knocked unconscious. You are able to end Safeguard on your turn as a bonus action.",
-				"While in Safeguard, you can use your Intelligence modifier when determining attack and damage for a weapon you are proficient with while using your shield art."
-				]
-			}
-		]
-	},
+					],
+					"entries": [
+						"Safeguard lasts for 1 minute. It ends early if you are knocked unconscious. You are able to end Safeguard on your turn as a bonus action.",
+						"While in Safeguard, you can use your Intelligence modifier when determining attack and damage for a weapon you are proficient with while using your shield art."
+					]
+				}
+			]
+		},
 		{
 			"name": "Shield Arts",
 			"source": "Ferryman_Gaming",
@@ -599,8 +525,7 @@
 				"The details of how you Safeguard with your selected shield art are shown below, as well as any additional benefits provided by your choice. Once selected, you cannot change your shield art at any point",
 				{
 					"type": "options",
-					"entries": [
-						{
+					"entries": [{
 							"name": "Balwark",
 							"entries": [
 								"You are proficient with tower shields, a heavier and stronger protection. While wielding this shield, you can use an action to raise it, causing attackers to have disadvantage and you to have advantage on Dexterity saving throws, and can use a bonus action to lower the shield again.",
@@ -653,30 +578,30 @@
 						"Your Unknown Petitions are fueled by your Spirit. You can only beseech so many of these petiions before a short or long rest is needed, at which point your spirit points regenerate.",
 						"Your spirit level is determined by your aegis level, which determines the number of Spirit points you have to spend, and can be seen under the Spirit Points column in the aegis table. These points can be spent on various petitions that are fueled by your spirit.",
 						"When you spend a spirit point, it is not available again until you take a short or long rest. As long as you have spirit points, you have no limit on how many times these petitions can be used.",
+						{
+							"type": "entries",
+							"name": "Casting Unknow Petitions",
+							"entries": [
+								"To cast one of the unknown petitions, you must have the required spirit cost available and have a spirit focus present on your character at the time of casting. This can be anything like a book, a relic, or even a torn page of text, but it must be held in one hand. At your DM's permission, a focus such as a torn page or trinket can be attached to a shield or weapon and counts as being held."
+							]
+						}
+					]
+				},
 				{
-					"type": "entries",
-					"name": "Casting Unknow Petitions",
-					"entries": [
-						"To cast one of the unknown petitions, you must have the required spirit cost available and have a spirit focus present on your character at the time of casting. This can be anything like a book, a relic, or even a torn page of text, but it must be held in one hand. At your DM's permission, a focus such as a torn page or trinket can be attached to a shield or weapon and counts as being held."
+					"type": "abilityDc",
+					"name": "Spirit",
+					"attributes": [
+						"int"
+					]
+				},
+				{
+					"type": "abilityAttackMod",
+					"name": "Spirit",
+					"attributes": [
+						"int"
 					]
 				}
-				]
-				},
-							{
-							"type": "abilityDc",
-							"name": "Spirit",
-							"attributes": [
-								"int"
-								]
-							},
-							{
-							"type": "abilityAttackMod",
-							"name": "Spirit",
-							"attributes": [
-								"int"
-								]
-							}
-						]
+			]
 		},
 		{
 			"name": "Battle Strategist",
@@ -686,7 +611,7 @@
 			"level": 3,
 			"entries": [
 				"Beginning at 3rd level, you've made it a point to setup thebattle field for your allies. You can now add yourIntelligence modifier to initiative rolls (minimum 1)."
-				]
+			]
 		},
 		{
 			"name": "Ability Score Improvement",
@@ -787,8 +712,7 @@
 				"At 14th level, you have mastered your Shield Art beyond measure. You can take a third reaction each round. You also gain the following benefits pertaining to the shield art you chose:",
 				{
 					"type": "options",
-					"entries": [
-						{
+					"entries": [{
 							"name": "Balwark",
 							"entries": [
 								"If you should hit a creature with an attack, you can use a bonus action to shove that same creature back 10 feet. You are now able to use Dash and Disengage as additional bonus actions on your turn."
@@ -873,8 +797,7 @@
 			]
 		}
 	],
-	"subclassFeature": [
-		{
+	"subclassFeature": [{
 			"name": "Vanguard of Inspiration",
 			"source": "Ferryman_Gaming",
 			"className": "Aegis",
@@ -1073,7 +996,7 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Master of Destruction|Aegis|Ferryman_Gaming|Displacement|Jude-Baldonado|2"
-				},
+				}
 			]
 		},
 		{
@@ -1149,24 +1072,19 @@
 			]
 		}
 	],
-	"foundryClassFeature": [
-		{
+	"foundryClassFeature": [{
 			"name": "Iron Chin",
 			"source": "SterlingVermin",
 			"className": "Pugilist",
 			"classSource": "SterlingVermin",
 			"level": 1,
-			"effects": [
-				{
-					"changes": [
-						{
-							"key": "data.attributes.ac.value",
-							"mode": "OVERRIDE",
-							"value": "12 + @abilities.con.mod"
-						}
-					]
-				}
-			]
+			"effects": [{
+				"changes": [{
+					"key": "data.attributes.ac.value",
+					"mode": "OVERRIDE",
+					"value": "12 + @abilities.con.mod"
+				}]
+			}]
 		},
 		{
 			"name": "Fisticuffs",
@@ -1175,35 +1093,31 @@
 			"classSource": "SterlingVermin",
 			"level": 1,
 			"subEntities": {
-				"item": [
-					{
-						"name": "Unarmed Strike (Pugilist)",
-						"source": "SterlingVermin",
-						"page": 1,
-						"srd": true,
-						"type": "M",
-						"rarity": "none",
+				"item": [{
+					"name": "Unarmed Strike (Pugilist)",
+					"source": "SterlingVermin",
+					"page": 1,
+					"srd": true,
+					"type": "M",
+					"rarity": "none",
+					"entries": [{
+						"type": "quote",
 						"entries": [
-							{
-								"type": "quote",
-								"entries": [
-									"Need a hand?"
-								]
-							}
+							"Need a hand?"
+						]
+					}],
+					"weaponCategory": "simple",
+					"foundryData": {
+						"equipped": true,
+						"damage.parts": [
+							[
+								"1d(@classes.pugilist.levels > 16 ? 12 : @classes.pugilist.levels > 10 ? 10 : @classes.pugilist.levels > 4 ? 8 : 6) + @mod",
+								"bludgeoning"
+							]
 						],
-						"weaponCategory": "simple",
-						"foundryData": {
-							"equipped": true,
-							"damage.parts": [
-								[
-									"1d(@classes.pugilist.levels > 16 ? 12 : @classes.pugilist.levels > 10 ? 10 : @classes.pugilist.levels > 4 ? 8 : 6) + @mod",
-									"bludgeoning"
-								]
-							],
-							"ability": "str"
-						}
+						"ability": "str"
 					}
-				]
+				}]
 			}
 		},
 		{
@@ -1254,19 +1168,16 @@
 			"classSource": "SterlingVermin",
 			"level": 10,
 			"actorDataMod": {
-				"traits.dr.value": [
-					{
-						"mode": "appendIfNotExistsArr",
-						"items": [
-							"psychic"
-						]
-					}
-				]
+				"traits.dr.value": [{
+					"mode": "appendIfNotExistsArr",
+					"items": [
+						"psychic"
+					]
+				}]
 			}
 		}
 	],
-	"foundrySubclassFeature": [
-		{
+	"foundrySubclassFeature": [{
 			"name": "Persona Libre",
 			"source": "SterlingVermin",
 			"className": "Pugilist",
@@ -1598,17 +1509,13 @@
 			"subclassShortName": "Arena Royale",
 			"subclassSource": "SterlingVermin",
 			"level": 11,
-			"effects": [
-				{
-					"changes": [
-						{
-							"key": "data.attributes.movement.walk",
-							"mode": "ADD",
-							"value": 10
-						}
-					]
-				}
-			]
+			"effects": [{
+				"changes": [{
+					"key": "data.attributes.movement.walk",
+					"mode": "ADD",
+					"value": 10
+				}]
+			}]
 		},
 		{
 			"name": "Scrap like a Sleuth",
