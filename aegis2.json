@@ -423,11 +423,11 @@
 			{
 				"name": "Displacement",
 				"subclassFeatures": [
-					"Opposites Repel|Aegis|SterlingVermin|Displacement|SterlingVermin|2",
-					"Master of Force|Aegis|Ferryman_Gaming|Displacement|Ferryman_Gamaing|2",
-					"One With Your Weapon|Aegis|SterlingVermin|Displacement|SterlingVermin|6",
-					"Self Reflection|Aegis|SterlingVermin|Displacement|SterlingVermin|10",
-					"Vehement Spirit|Aegis|SterlingVermin|Displacement|SterlingVermin|18"
+					"Opposites Repel|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|2",
+					"Master of Force|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|2",
+					"One With Your Weapon|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|6",
+					"Self Reflection|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|10",
+					"Vehement Spirit|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|18"
 				],
 				"source": "Jude-Baldonado",
 				"shortName": "Displacement"
@@ -435,11 +435,11 @@
 			{
 				"name": "The Destroyer",
 				"subclassFeatures": [
-					"Embrace Both Sides|Aegis|SterlingVermin|The Destroyer|SterlingVermin|3",
-					"Maaster of Destruction|Aegis|Ferryman_Gaming|The Destroyer|Ferryman_Gaming|2",
-					"Redoubt of Power|Aegis|SterlingVermin|The Destroyer|SterlingVermin|6",
-					"Chosen Embrace|Aegis|SterlingVermin|The Destroyer|SterlingVermin|10",
-					"Destructive Shield|Aegis|SterlingVermin|The Destroyer|SterlingVermin|18"
+					"Embrace Both Sides|Aegis|Jude-Baldonado|The Destroyer|Jude-Baldonado|3",
+					"Maaster of Destruction|Aegis|Jude-Baldonado|The Destroyer|Jude-Baldonado|2",
+					"Redoubt of Power|Aegis|Jude-Baldonado|The Destroyer|Jude-Baldonado|6",
+					"Chosen Embrace|Aegis|Jude-Baldonado|The Destroyer|Jude-Baldonado|10",
+					"Destructive Shield|Aegis|Jude-Baldonado|The Destroyer|Jude-Baldonado|18"
 				],
 				"source": "Jude-Baldonado",
 				"shortName": "The Destroyer"
@@ -799,7 +799,7 @@
 	],
 	"subclassFeature": [{
 			"name": "Vanguard of Inspiration",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Inspiration",
@@ -824,7 +824,7 @@
 			"entries": [
 				"Starting at 2nd level, you realize the importance of having a deep list of petitions to assist those around you. When you would learn two new petitions at 2nd, 6th, 10th, 14th, and 18th levels, you instead learn three and can replace two existing petitions instead of one."
 			],
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Ageis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Inspiration",
@@ -840,7 +840,7 @@
 				"You can now embolden adventurers using several petitions. You choose three petitions when you pick this vanguard, which are detailed in the Embolden Petitions list below. You learn three additional embolden petitions at 6th, 10th, 14th, and 18th level.",
 				"Whenever you learn a new embolden petition, you can also replace two embolden petitions you know with a different petitions."
 			],
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Ageis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Inspiration",
@@ -850,7 +850,7 @@
 		},
 		{
 			"name": "Natural Healer",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Inspiration",
@@ -864,7 +864,7 @@
 		},
 		{
 			"name": "Proud Spirit",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Inspiration",
@@ -877,7 +877,7 @@
 		},
 		{
 			"name": "Perfected Spirit",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Inspiration",
@@ -892,7 +892,7 @@
 		},
 		{
 			"name": "Vanguard of Displacement",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Displacement",
@@ -916,7 +916,7 @@
 			"entries": [
 				"Starting at 2nd level, whenever a creature shoves or pushes you with a melee attack, that creature is also shoved or pushed back the same distance."
 			],
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Displacement",
@@ -932,7 +932,7 @@
 				"You can pick two spirit petitions of your choice, which are detailed in the Force Petitions section below. You learn two additional force petitions at 6th, 10th, 14th, and 18th level.",
 				"Whenever you learn a new force petition, you can also replace one force petition you know with a different petition."
 			],
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Displacement",
@@ -942,7 +942,7 @@
 		},
 		{
 			"name": "One With Your Weapon",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Displacement",
@@ -955,7 +955,7 @@
 		},
 		{
 			"name": "Self Reflection",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Displacement",
@@ -968,7 +968,7 @@
 		},
 		{
 			"name": "Vehement Spirit",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "Displacement",
@@ -981,7 +981,7 @@
 		},
 		{
 			"name": "Vanguard of The Destroyer",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "The Destroyer",
@@ -1006,7 +1006,7 @@
 				"Starting at 2nd level, you have studied both paths of light and darkness. When you take a short or long rest, you can spend one hour meditating. At the end of your meditation, you can pick one element.",
 				"This element is the element that powers your Destruction Petitions. You can choose from Necrotic or Radiant damage. When using your destruction petitions, you use the chosen damage as the type applied to your petition. If the petition would have an effect, when choosing necrotic damage, you would Frighten creatures, and when choosing radiant damage you would Blind creatures."
 			],
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "The Destroyer",
@@ -1022,7 +1022,7 @@
 				"You choose two petitions when you pick this vanguard, which are detailed in the Destruction Petitions list below. You learn two additional destruction petitions at 6th, 10th, 14th, and 18th level.",
 				"Whenever you learn a new destruction petition, you can also replace one destruction petition you know with a different petition."
 			],
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "The Destroyer",
@@ -1032,7 +1032,7 @@
 		},
 		{
 			"name": "Redoubt of Power",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "The Destroyer",
@@ -1045,7 +1045,7 @@
 		},
 		{
 			"name": "Chosen Embrace",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "The Destroyer",
@@ -1058,7 +1058,7 @@
 		},
 		{
 			"name": "Destructive Shield",
-			"source": "Ferryman_Gaming",
+			"source": "Jude-Baldonado",
 			"className": "Aegis",
 			"classSource": "Jude-Baldonado",
 			"subclassShortName": "The Destroyer",
