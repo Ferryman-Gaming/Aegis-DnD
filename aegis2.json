@@ -43,256 +43,277 @@
 		"proficiency": [
 			"con",
 			"int"
-		],
-		"classTableGroups": [{
-			"colLabels": [
-				"Poultices",
-				"Spirit Points",
-				"Petitions Known"
+		],			"classTableGroups": [
+				{
+					"colLabels": [
+						"Poultices",
+						"Spirit Points",
+						"Petitions Known"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 0,
+										"faces": 6
+									}
+								]
+							},
+							0,
+							0
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 0,
+										"faces": 6
+									}
+								]
+							},
+							2,
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								]
+							},
+							3,
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 2,
+										"faces": 6
+									}
+								]
+							},
+							4,
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								]
+							},
+							5,
+							2
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 3,
+										"faces": 6
+									}
+								]
+							},
+							6,
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								]
+							},
+							7,
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 4,
+										"faces": 6
+									}
+								]
+							},
+							8,
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								]
+							},
+							9,
+							4
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 5,
+										"faces": 6
+									}
+								]
+							},
+							10,
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								]
+							},
+							11,
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 6,
+										"faces": 6
+									}
+								]
+							},
+							12,
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								]
+							},
+							13,
+							6
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 7,
+										"faces": 6
+									}
+								]
+							},
+							14,
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								]
+							},
+							15,
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 8,
+										"faces": 6
+									}
+								]
+							},
+							16,
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								]
+							},
+							17,
+							8
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 9,
+										"faces": 6
+									}
+								]
+							},
+							18,
+							10
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								]
+							},
+							19,
+							10
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 10,
+										"faces": 6
+									}
+								]
+							},
+							20,
+							10
+						]
+					]
+				}
 			],
-			"rows": [
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 0,
-								"faces": 6
-							}]
-						},
-						0
-					],
-					0
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 0,
-								"faces": 6
-							}]
-						},
-						2
-					],
-					2
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 2,
-								"faces": 6
-							}]
-						},
-						3
-					],
-					2
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 2,
-								"faces": 6
-							}]
-						},
-						4
-					],
-					2
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 3,
-								"faces": 6
-							}]
-						},
-						5
-					],
-					2
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 3,
-								"faces": 6
-							}]
-						},
-						6
-					],
-					4
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 4,
-								"faces": 6
-							}]
-						},
-						7
-					],
-					4
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 4,
-								"faces": 6
-							}]
-						},
-						8
-					],
-					4
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 5,
-								"faces": 6
-							}]
-						},
-						9
-					],
-					4
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 5,
-								"faces": 6
-							}]
-						},
-						10
-					],
-					6
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 6,
-								"faces": 6
-							}]
-						},
-						11
-					],
-					6
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 6,
-								"faces": 6
-							}]
-						},
-						12
-					],
-					6
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 7,
-								"faces": 6
-							}]
-						},
-						13
-					],
-					6
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 7,
-								"faces": 6
-							}]
-						},
-						14
-					],
-					8
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 8,
-								"faces": 6
-							}]
-						},
-						15
-					],
-					8
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 8,
-								"faces": 6
-							}]
-						},
-						16
-					],
-					8
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 9,
-								"faces": 6
-							}]
-						},
-						17
-					],
-					8
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 9,
-								"faces": 6
-							}]
-						},
-						18
-					],
-					10
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 10,
-								"faces": 6
-							}]
-						},
-						19
-					],
-					10
-				],
-				[
-					[{
-							"type": "dice",
-							"toRoll": [{
-								"number": 10,
-								"faces": 6
-							}]
-						},
-						20
-					],
-					10
-				]
-			]
-		}],
 		"startingProficiencies": {
 			"armor": [
 				"all armour",
