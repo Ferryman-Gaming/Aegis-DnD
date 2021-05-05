@@ -366,20 +366,20 @@
 			"Spirit|Aegis|Jude-Baldonado|2",
 			"Unknown Petitions|Aegis|Jude-Baldonado|2",
 			{
-				"classFeature": "Path of Protection|Aegis|Jude-Baldonado|2",
+				"classFeature": "Vanguard of Protection|Aegis|Jude-Baldonado|2",
 				"gainSubclassFeature": true
 			},
 			"Battle Strategist|Aegis|Jude-Baldonado|3",
 			"Ability Score Improvement|Aegis|Jude-Baldonado|4",
 			"Spiritual Insight|Aegis|Jude-Baldonado|5",
 			{
-				"classFeature": "Path feature|Aegis|Jude-Baldonado|6",
+				"classFeature": "Vanguard feature|Aegis|Jude-Baldonado|6",
 				"gainSubclassFeature": true
 			},
 			"Ability Score Improvement|Aegis|Jude-Baldonado|8",
 			"Gliding Spirit|Aegis|Jude-Baldonado|9",
 			{
-				"classFeature": "Path feature|Aegis|Jude-Baldonado|10",
+				"classFeature": "Vanguard feature|Aegis|Jude-Baldonado|10",
 				"gainSubclassFeature": true
 			},
 			"Spirit Armor|Aegis|Jude-Baldonado|11",
@@ -388,7 +388,7 @@
 			"Ability Score Improvement|Aegis|Jude-Baldonado|16",
 			"Extension of Ones Self|Aegis|Jude-Baldonado|17",
 			{
-				"classFeature": "Path feature|Aegis|Jude-Baldonado|18",
+				"classFeature": "Vanguard feature|Aegis|Jude-Baldonado|18",
 				"gainSubclassFeature": true
 			},
 			"Ability Score Improvement|Aegis|Jude-Baldonado|19",
