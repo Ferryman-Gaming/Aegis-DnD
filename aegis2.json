@@ -810,11 +810,11 @@
 				"The aegis will use their own words, knowhow, and spirit to rally adventurers to do things like increase their power, encourage them to overcome difficult situations, to heal them during combat, or even shield them with their spirit from afar.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Utilitarian|Aegis|Ferryman_Gaming|Inspiration|Jude-Baldonado|2"
+					"subclassFeature": "Utilitarian|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Helping Shield|Aegis|Ferryman_Gaming|Inspiration|Jude-Baldonado|2"
+					"subclassFeature": "Helping Shield|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2"
 				}
 			]
 		},
@@ -902,11 +902,11 @@
 				"Most aegis see protecting others as ensuring that they get in between the enemy and those who they are protecting. Other aegis see protecting others as simply ensuring that the enemy gets no where near your fellow adventurers in the first place. These aegis use their spirit to create a type of martial energy that allows them to use force to push and move their enemy. They have learned to harness this energy in different ways, such as small explosions, energy balls, and burning beams, just to name a few.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Opposites Repel|Aegis|Ferryman_Gaming|Displacement|Jude-Baldonado|2"
+					"subclassFeature": "Opposites Repel|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Master of Force|Aegis|Ferryman_Gaming|Displacement|Jude-Baldonado|2"
+					"subclassFeature": "Master of Force|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|2"
 				}
 			]
 		},
@@ -991,11 +991,11 @@
 				"You see that any being that is out to seek absolute power or to become exalted among all others really seeks one thing. To become a god. And that being will pay. Whether that be a Celestial or Fey. A Demon or Fiend. A king or a wealthy businessman. You will find them and destroy those who stand in your way. You have learned to channel your spirit into a celestial element that destroys the one you seek.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Embrace Both Sides|Aegis|Ferryman_Gaming|Displacement|Jude-Baldonado|2"
+					"subclassFeature": "Embrace Both Sides|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|2"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Master of Destruction|Aegis|Ferryman_Gaming|Displacement|Jude-Baldonado|2"
+					"subclassFeature": "Master of Destruction|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|2"
 				}
 			]
 		},
