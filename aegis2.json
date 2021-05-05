@@ -409,7 +409,7 @@
 		},
 		"subclassTitle": "Vanguards of Protection",
 		"subclasses": [{
-				"name": "Inspiration",
+				"name": "Vanguard of Inspiration",
 				"subclassFeatures": [
 					"Utilitarian|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2",
 					"Helping Shield|Aegis|Jude-Baldonado|Inspiration|Jude-Baldonado|2",
@@ -421,7 +421,7 @@
 				"shortName": "Inspiration"
 			},
 			{
-				"name": "Displacement",
+				"name": "Vanguard of Displacement",
 				"subclassFeatures": [
 					"Opposites Repel|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|2",
 					"Master of Force|Aegis|Jude-Baldonado|Displacement|Jude-Baldonado|2",
@@ -433,7 +433,7 @@
 				"shortName": "Displacement"
 			},
 			{
-				"name": "The Destroyer",
+				"name": "Vanguard of The Destroyer",
 				"subclassFeatures": [
 					"Embrace Both Sides|Aegis|Jude-Baldonado|The Destroyer|Jude-Baldonado|3",
 					"Master of Destruction|Aegis|Jude-Baldonado|The Destroyer|Jude-Baldonado|2",
