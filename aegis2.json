@@ -1197,9 +1197,9 @@
 				}]
 			}
 		}
-	]
-}
-        {
+	    ],
+    "item": [
+      {
             "name": "Tower Shield",
             "source": "FMG",
             "page": 2,
@@ -1207,11 +1207,13 @@
             "type": "S",
             "rarity": "none",
             "weight": 10,
-            "value": 1000,
-                        "strength": "15",
+            "value": 2500,
+                        "strength": "13",
                         "stealth": true,
             "ac": 3,
             "entries": [
-                "Due to its sheer weight and size, if you do not meet the strength requirement, your speed is decreased by 10 feet while holding this shield. Only light weapons can be used with this shield and attacks are made at disadvantage."
+                "Due to its sheer weight and size, if you do not meet the strength requirement, your speed is decreased to 0 feet while holding this shield. Only light weapons can be used with this shield and attacks are made at disadvantage."
             ]
         }
+    ]
+}
