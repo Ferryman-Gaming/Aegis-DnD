@@ -369,7 +369,7 @@
 				"classFeature": "Path of Protection|Aegis|Jude-Baldonado|2",
 				"gainSubclassFeature": true
 			},
-			"Battle Strategist|Aegis|Ferryman_Gaming|3",
+			"Battle Strategist|Aegis|Jude-Baldonado|3",
 			"Ability Score Improvement|Aegis|Jude-Baldonado|4",
 			"Spiritual Insight|Aegis|Jude-Baldonado|5",
 			{
@@ -494,9 +494,9 @@
 
 	"classFeature": [{
 			"name": "Safeguard",
-			"source": "SterlingVermin",
+			"source": "Ferryman_Gaming",
 			"className": "Aegis",
-			"classSource": "SterlingVermin",
+			"classSource": "Jude-Baldonado",
 			"level": 1,
 			"entries": [
 				"Beginning at 1st level, when danger is present, you protect others with everything you have and without any thought for yourself.",
